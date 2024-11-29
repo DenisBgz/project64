@@ -24,15 +24,17 @@ body{
 	background-color: rgb(201, 233, 255,25%);
 }
 .number-box{
-	width: 80%;
+	width: 70%;
 	height: 20%;
 	margin-inline:10% ;
 	margin-top: 7.5vh;
 	border-radius: 2.5vh;
 	border: none;
-	direction: rtl;
 	font-size: 3em;
 	caret-color: white;
+	padding-inline: 5%;
+	text-align: end;
+
 }
 .number-box:focus{
 	outline:none;
@@ -55,10 +57,28 @@ body{
 	justify-content: center;
 	align-items: center;
 	font-size:24px;
+	user-select: none;
+}
+.num:hover{
+	background-color: rgb(255,255,255,70%);
+	color: rgb(0,0,0,70%);
+	cursor: pointer;
+}
+.num:active{
+	background-color: rgb(255,255,255,25%);
+	color: rgb(0,0,0,25%);
 }
 .red{
 	background-color: #993838;
 	color:white;
+}
+.red:hover{
+	background-color: rgb(153, 56, 56,70%);
+	color:rgb(255, 255, 255,70%);
+}
+.red:active{
+	background-color: rgb(153, 56, 56,25%);
+	color:rgb(255, 255, 255,25%);
 }
 .num-c{
 	width: 36%;
